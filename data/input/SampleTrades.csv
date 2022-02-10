@@ -1,4 +1,11 @@
-TradeId,TradeType
-Trade1,B
-Trade2,S
-Trade3,S
+TradeId,TradeType,Currency,Units
+Trade1,B,AUD,50
+Trade2,S,AED,100
+Trade3,S,EUR,150
+Trade4,S,INR,250
+Trade5,B,AUD,500
+Trade6,S,AED,1000
+Trade7,S,EUR,50
+Trade8,B,INR,2050
+Trade9,S,EUR,10
+Trade10,S,AUD,450

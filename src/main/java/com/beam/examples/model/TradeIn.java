@@ -11,4 +11,8 @@ public class TradeIn implements Serializable {
     private String tradeId;
     @CsvBindByPosition(position = 1)
     private String tradeType;
+    @CsvBindByPosition(position = 2)
+    private String currency;
+    @CsvBindByPosition(position = 3)
+    private String units;
 }
