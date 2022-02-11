@@ -3,7 +3,6 @@ package com.beam.examples;
 import com.beam.examples.model.Trade;
 import com.beam.examples.model.TradeIn;
 import com.beam.examples.options.MilestoneCounterOptions;
-import com.beam.examples.options.SideInputOptions;
 import com.beam.examples.transforms.CsvRecordParser;
 import com.beam.examples.transforms.MilestoneCounter;
 import org.apache.beam.sdk.Pipeline;
