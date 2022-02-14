@@ -14,6 +14,6 @@ public interface MilestoneCounterOptions extends SideInputOptions{
     @Description("Path to write Milestone metrics")
     @Default.String("data/output/milestone-metrics.log")
     @Validation.Required
-    String getMetricsPath();
-    void setMetricsPath(String path);
+    ValueProvider<String> getMetricsPath();
+    void setMetricsPath(ValueProvider<String> path);
 }
