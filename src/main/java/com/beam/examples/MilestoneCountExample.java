@@ -91,6 +91,6 @@ public class MilestoneCountExample {
                 .apply(ToString.kvs(":"))
                 .apply("WriteMetrics",TextIO.write().withoutSharding().to(options.getMetricsPath()));
 
-        p.run().waitUntilFinish();
+        p.run();
     }
 }

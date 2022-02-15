@@ -66,6 +66,6 @@ public class SideInputPipeline {
                 .apply(ToString.elements())
                 .apply("WriteRecords", TextIO.write().withoutSharding().to(options.getOutputFile()));
 
-        p.run().waitUntilFinish();
+        p.run();
     }
 }
